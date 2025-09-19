@@ -131,3 +131,47 @@ img{
     padding-right: 16px;
 }
 
+/* SAGA */
+
+#saga{
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+}
+
+#saga-list{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#saga img{
+    height: 128px;
+    width: 128px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #e76a24;
+
+}
+
+.card{
+    box-shadow: 1px 1px 4px var(--gris-fonce-dbz);
+    border-radius: 6px;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 360px;
+    width: 240px;
+    margin: 24px;
+
+}
+
+.card-perso{
+    width: 360px;
+}
+
+.img-perso{
+    width: fit-content;
+    height: fit-content;
+}

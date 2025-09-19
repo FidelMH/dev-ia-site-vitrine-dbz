@@ -1,0 +1,23 @@
+# Fichiers et dossiers à ignorer par Git
+
+# Systèmes d'exploitation
+.DS_Store
+Thumbs.db
+
+# Dossiers d'éditeurs
+.vscode/
+.idea/
+
+# Fichiers temporaires
+*.log
+*.tmp
+
+# Environnements virtuels Python
+venv/
+.env/
+
+# Node.js
+node_modules/
+
+# Autres
+*.bak

@@ -1,0 +1,133 @@
+:root {
+  --bleu-dbz: #1c4595;
+  --orange-dbz: #e76a24;
+  --gris-clair-dbz: #e7e5e8;
+  --orange-clair-dbz: #fbbc42;
+  --gris-fonce-dbz: #555;
+}
+
+body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: var(--gris-fonce-dbz);
+            min-height: 100vh;
+            background-color: #fbbc42;
+            font-size: large;
+        }
+
+button{
+    border: none;
+    border-radius: 10px;
+    background-color: #e76a24;
+    padding: 10px;
+    padding-left: 32px;
+    padding-right: 32px;
+    text-align: center;
+    color: var(--gris-clair-dbz);
+    font-weight: bold;
+    font-size: large;
+}
+header{
+    background: #1c4595aa;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+    border: #333;
+    color: #e7e5e8;
+    
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5rem;
+    
+}
+nav ul a:visited{
+    color: #e7e5e8
+}
+
+nav ul a{
+    color: #e7e5e8;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+li{
+    list-style-type: none;
+}
+.header-title{
+    vertical-align: baseline;
+}
+
+/* MAIN */
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+section{
+    max-width:80% ;
+    margin-bottom: 100px;
+}
+/* HERO */
+#hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    row-gap:30px ;
+    margin-bottom: 100px;
+}
+
+.container{
+    background-color: var(--gris-clair-dbz);
+    border-radius: 10px;
+    width: 80%;
+
+}
+
+/* Description*/
+
+#description>div{
+    display: flex;
+    flex-direction: row;
+    
+
+
+}
+img{
+    height: 100%;
+}
+#desc-img{
+    height: fit-content;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+#description{
+    display: flex;
+    align-items: center;
+    padding: 0px;
+}
+
+.desc-left{
+    padding: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+

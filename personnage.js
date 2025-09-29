@@ -23,15 +23,15 @@ let perso_list = [
         "name": "Piccolo",
         "role": "Namek - Mentor",
         "description": `Ancien ennemi devenu allié précieux, mentor de Gohan et stratège de l'équipe. Sa sagesse égale sa puissance au combat.`,
-        "img": "img/gohan.png"
+        "img": "img/piccolo.png"
     },
 ]
 
 
 let perso_list_elmt = document.getElementById("perso-list")
 perso_list.forEach(perso => {
-    
-    let perso_elmt = document.createElement("div") // container personnage
+
+    let perso_elmt = document.createElement("article") // container personnage
     perso_elmt.classList.add("card-perso")
 
     // Ajout de l'image

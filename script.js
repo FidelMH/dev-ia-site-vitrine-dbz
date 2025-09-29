@@ -18,13 +18,14 @@ let saga_list_elt = document.getElementById("saga-list")
 console.log(saga_list_elt)
 
 saga_list.forEach(saga => {
-    let saga_elmt = document.createElement("div")
+    let saga_elmt = document.createElement("article")
     let img_elmt = document.createElement("img")
     img_elmt.src = saga.image
+    img_elmt.alt = saga.name
     saga_elmt.appendChild(img_elmt)
-    h3_elt = document.createElement("h3")
+    let h3_elt = document.createElement("h3")
     h3_elt.textContent = saga.name
-    
+
     saga_elmt.appendChild(h3_elt)
     let p_elmt = document.createElement("p")
     p_elmt.textContent = saga.description

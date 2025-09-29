@@ -11,14 +11,14 @@ body {
             line-height: 1.6;
             color: var(--gris-fonce-dbz);
             min-height: 100vh;
-            background-color: #fbbc42;
+            background-color: var(--orange-clair-dbz);
             font-size: large;
         }
 
 button{
     border: none;
     border-radius: 10px;
-    background-color: #e76a24;
+    background-color: var(--orange-dbz);
     padding: 10px;
     padding-left: 32px;
     padding-right: 32px;
@@ -28,6 +28,8 @@ button{
     font-size: large;
     cursor: pointer;
 }
+
+/* HEADER */
 header{
     background: #1c4595aa;
     position: sticky;
@@ -49,11 +51,11 @@ nav ul{
     gap: 5rem;
     
 }
-nav ul a:visited{
+nav a:visited{
     color: #e7e5e8
 }
 
-nav ul a{
+nav a{
     color: #e7e5e8;
 }
 
@@ -64,15 +66,16 @@ nav{
 
 }
 
-a {
-    text-decoration: none;
-}
 
 li{
     list-style-type: none;
 }
+a {
+    text-decoration: none;
+}
 .header-title{
     vertical-align: baseline;
+    color: #e7e5e8;
 }
 
 /* MAIN */
@@ -155,7 +158,7 @@ img{
 
 }
 
-.card{
+article.card{
     box-shadow: 1px 1px 4px var(--gris-fonce-dbz);
     border-radius: 6px;
     padding: 8px;
@@ -176,7 +179,7 @@ img{
     
 }
 
-.card-perso{
+article.card-perso{
     width: 240px;
     border-radius: 16px;
     box-shadow: 1px  1px 2px;
@@ -184,7 +187,7 @@ img{
     background-color: var(--gris-clair-dbz);
 }
 
-.card-perso h2{
+article.card-perso h2{
     font-size: large;
     margin-top: 0;
 }

@@ -209,3 +209,66 @@ article.card-perso h2{
     font-weight: 500;
 }
 
+/* CONTACT */
+#contact-container{
+    width: 80%;
+    max-width: 600px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 32px;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+label{
+    font-weight: 500;
+    color: var(--gris-fonce-dbz);
+    text-transform: capitalize;
+}
+
+input[type="text"],
+input[type="email"],
+textarea{
+    padding: 12px;
+    border: 2px solid var(--gris-clair-dbz);
+    border-radius: 6px;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: white;
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus{
+    outline: none;
+    border-color: var(--bleu-dbz);
+}
+
+textarea{
+    min-height: 120px;
+    resize: vertical;
+}
+
+.submit-btn{
+    align-self: flex-start;
+    margin-top: 16px;
+}
+
+/* FOOTER */
+footer{
+    background-color: var(--gris-fonce-dbz);
+    color: var(--gris-clair-dbz);
+    text-align: center;
+    padding: 20px;
+    margin-top: 80px;
+}
+

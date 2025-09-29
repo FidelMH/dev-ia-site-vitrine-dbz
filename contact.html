@@ -21,26 +21,21 @@
     </header>
     <main>
         <h1>Contactez-nous</h1>
-        <div>
+        <div id="contact-container" class="container">
             <form action="#">
-                <div>
-                    <div>
-
-                        <label for="form-nom">nom</label>
-                    </div>
-                    <div>
-                        <input type="text" name="" id="form-nom">
-                    </div>
-                    <div>
-                        <label for="form-email">email</label>
-                    </div>
-                    <div>
-                        <input type="email" name="" id="form-email">
-                    </div>
+                <div class="form-group">
+                    <label for="form-nom">nom</label>
+                    <input type="text" name="nom" id="form-nom">
                 </div>
-                <div>
-                    <textarea name="" id="form-message"></textarea>
+                <div class="form-group">
+                    <label for="form-email">email</label>
+                    <input type="email" name="email" id="form-email">
                 </div>
+                <div class="form-group">
+                    <label for="form-message">message</label>
+                    <textarea name="message" id="form-message" placeholder="Votre message..."></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Envoyer</button>
             </form>
         </div>
     </main>
